@@ -1,89 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bootstrep</title>
     <!-- NEPAVYKSTA NURODYTI KELIO IKI FAILO-->
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container spalva">
-        <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-        </div>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-dark">Dark</button>
+      <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
 
-        <button type="button" class="btn btn-link">Link</button>
+      <button type="button" class="btn btn-link">Link</button>
     </div>
     <div class="container bacgraund">
-        <div class="row">
-            <!-- ikonos ir info stulpelis-->
-            <div class="col-4">
-                <div class="row">
-                    <div class="col-4 img-smool">
-                        <!-- neiseina ikelti mazo paveiksliuko-->
-                        <!-- <img src="https://image.flaticon.com/icons/png/512/25/25694.png" alt="home"/>-->
-                    </div>
-                    <div class="col-8">
-                        <p> Binghamton, new york 4343 hinkle deegon lake road</p>
-                        <p> 00(958) 9865 562 mon to Fri 9am to 6pm </p>
-                        <p> support@colorlib.com send us your query anytimel</p>
-                    </div>
-                </div>
+      <div class="row">
+        <!-- ikonos ir info stulpelis-->
+        <div class="col-4">
+          <div class="row">
+            <div class="col-4 img-smool">
+              <!-- neiseina ikelti mazo paveiksliuko-->
+              <!-- <img src="https://image.flaticon.com/icons/png/512/25/25694.png" alt="home"/>-->
             </div>
-            <!--
+            <div class="col-8">
+              <p>Binghamton, new york 4343 hinkle deegon lake road</p>
+              <p>00(958) 9865 562 mon to Fri 9am to 6pm</p>
+              <p>support@colorlib.com send us your query anytimel</p>
+            </div>
+          </div>
+        </div>
+        <!--
                  emeilo ir duomenu lentele
                  NEZINAU AR GERAI PANAUDOJAU FORM IR JAI NURODZIAU KLASE
                 -->
-           <!-- <form class="row"> -->
-                <div class="col-8">
-                    <div class="row"> 
-                        <div class="col-6">
-                            <input class="form-control" type="text" placeholder="Enter your name"
-                                aria-label="default input example">
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                            <input class="form-control" type="text" placeholder="Default input"
-                                aria-label="default input example">
-                        </div>
-                        <!-- laukelis palikti zinute-->
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                                    style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Comments</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- submit mygtukas-->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="col-auto text-end">
-                                <button type="submit" class="btn btn-primary">SENT MESAGE</button>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-8">
+          <form>
+            <div class="row">
+              <div class="col-6">
+                  <div class="input-wrapper mb-3">
+                    <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Enter your name"
+                    aria-label="default input example"
+                  />
+                  </div>
+              
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Default input"
+                  aria-label="default input example"
+                />
+              </div>
+              <!-- laukelis palikti zinute-->
+              <div class="col-6">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Comments</label>
                 </div>
-           <!-- </form> -->
+              </div>
+            </div>
+            <!-- submit mygtukas-->
+            <div class="row">
+              <div class="col-12">
+                <div class="col-auto text-end">
+                  <button type="submit" class="btn btn-primary">
+                    SENT MESAGE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-</body>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
